@@ -1,0 +1,176 @@
+/* font-family: 'Abel', sans-serif;
+font-family: 'Aboreto', cursive;
+font-family: 'Girassol', cursive;
+font-family: 'Overlock SC', cursive; */
+
+*{
+    background-color: skyblue;
+}
+
+.top h1 {
+    color: #fff;
+    font-size: 130px;
+    text-align: left;
+    margin: 5px 0px 20px 0px ;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sticky ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sticky li {
+    float: left;
+}
+
+.sticky a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 5px 0 0px;
+    font-family: 'Aboreto', cursive;
+}
+
+.sticky a:hover {
+    background-color: #0455BF;
+}
+
+.home-active {
+    background-color: #0455BF
+}
+
+.sticky a:active {
+    text-decoration: underline;
+}
+
+ h2 {
+    color: #fff;
+    font-size: 90px;
+    text-align: left;
+    margin: 30px 0px 20px 0px;
+}
+
+.color {
+    border: 1px solid black;
+    font-size: 60px;
+    font-family: 'Overlock SC';
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.red {
+    background-color: #ff0000;
+}
+.orange {
+    background-color:#ffa500;
+}
+.yellow {
+    background-color: #ffff00;
+}
+.green {
+    background-color: #008000;
+}
+.blue {
+    background-color: #0000ff;
+}
+.indigo {
+    background-color: #4b0082;
+}
+.violet {
+    background-color: #ee82ee;
+}
+
+.fonts {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.fonts div {
+    margin: 10px 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    width: 600px;
+    height: 280px;
+ }
+ .abel h3, .abel p {
+    margin: 10px 0px;
+    text-align: center;
+ }
+.aboreto {
+    font-family: 'Aboreto', cursive;
+    font-size: 30px;
+    width: 700px;
+    height: 250px;
+}
+.aboreto h3, .aboreto p {
+    margin: 25px 0px;
+    text-align: center;
+}
+.girassol {
+    font-family: 'Girassol', cursive;
+    font-size: 40px;
+    width: 600px;
+    height: 250px;
+}
+.girassol h3, .girassol p {
+    margin: 2px 0px;
+    text-align: center;
+}
+.Overlock-SC {
+    font-family: 'Overlock SC', cursive; 
+    font-size: 40px;
+    width: 700px;
+    height: 250px;
+}
+.Overlock-SC h3, .Overlock-SC p {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.fonts div {
+    display: inline-block;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+
+.text-styles h1 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.subhead {
+    font-family: 'Girassol', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
