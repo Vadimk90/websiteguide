@@ -174,3 +174,9 @@ font-family: 'Overlock SC', cursive; */
     font-weight: 500;
     color: black;
 }
+
+.text-styles p {
+    font-family: 'Girassol', cursive;
+    font-size: 14px;
+    font-weight: 400;
+}
